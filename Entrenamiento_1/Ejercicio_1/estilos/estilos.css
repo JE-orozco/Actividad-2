@@ -92,27 +92,8 @@ li ul {
 }
 
 a {
-  color: inherit;
+  color: rgb(70, 70, 232);
   text-decoration: none;
-}
-
-@media (max-width: 40rem) {
-  main {
-    display: block;
-    width: 100%;
-    padding: 1.5rem 8%;
-    border: 0;
-  }
-
-  .imagen,
-  .experiencia,
-  .estudios {
-    margin-top: 1.5rem;
-  }
-
-  .imagen img {
-    margin: 0 auto;
-  }
 }
 
 main.detalle-experiencia {
@@ -128,4 +109,15 @@ main.detalle-experiencia {
   width: 100%;
   min-height: 20rem;
   border: 0.1rem solid black;
+}
+
+.detalle-experiencia img {
+  display: block; 
+  width: 100%;
+  max-width: 30rem; 
+  margin: 0 auto; 
+  border: 0.1rem solid black; 
+}
+.detalle-experiencia .institucion {
+  text-align: center; 
 }
