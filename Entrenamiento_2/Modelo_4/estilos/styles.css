@@ -105,3 +105,44 @@
         grid-row: 3;
     }
 }
+
+@media (max-width: 480px) {
+    .contenedor-principal {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+    
+    .seccion1 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .seccion2 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .seccion3 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .seccion4 {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .seccion5 {
+        grid-column: 1;
+        grid-row: 5;
+        background-color: #bbdefb;
+    }
+
+    .seccion6 {
+        grid-column: 1;
+        grid-row: 6;
+        background-color: #ffcdd2;
+    }
+}
+
+

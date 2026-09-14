@@ -67,3 +67,20 @@
         order: 3;
     }
 }
+
+@media (max-width: 480px) {
+    .contenedor-principal {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .seccion1, .seccion2, .seccion3, .seccion4, .seccion5, .seccion6 {
+        grid-column: 1;
+    }
+    .seccion5 {
+        background-color: #bbdefb;
+    }
+
+    .seccion6 {
+        background-color: #ffcdd2;
+    }
+}
