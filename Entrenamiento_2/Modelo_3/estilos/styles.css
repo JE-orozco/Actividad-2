@@ -42,3 +42,28 @@
 .seccion6{
     background-color: #bbdefb;
 }
+
+@media (max-width: 768px){
+    .contenedor-principal{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr);
+    }
+
+    .seccion2, .seccion4, .seccion5 {
+        display: none;
+    }
+
+    .seccion1 {
+        grid-column: 1;
+        order: 1;
+    }
+    .seccion3 {
+        grid-column: 1;
+        order: 2;
+    }
+
+    .seccion6 {
+        grid-column: 1;
+        order: 3;
+    }
+}
