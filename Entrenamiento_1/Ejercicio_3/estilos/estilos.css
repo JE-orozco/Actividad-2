@@ -1,0 +1,158 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  background-color: #d6a585;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #edd8c9;
+  
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  background-color: #bf7340;
+  z-index: 10;
+  
+}
+header h1{
+    color: white;
+    
+}
+main {
+  width: 80vw;
+  margin: 0 auto;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.lista {
+    margin: 1.5rem 0;
+  padding: 1rem;
+  text-align: center;
+  scroll-margin-top: 5rem;
+}
+.lista h2{
+   margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem; 
+}
+
+ ul li{
+    padding: 0.5rem 1rem;
+    background-color: #d6a585;
+    border-radius: 1rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.receta{
+    position: relative;
+    border: 0.2rem solid black;
+    width: 100%;
+    margin: 2rem 0;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-margin-top: 4.5rem;
+    
+}
+.receta .btn-indice {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.3rem 0.9rem;
+  background-color: #d6a585;
+  border-radius: 1rem;
+}
+
+.receta :is(h2, h3){
+    margin: 1rem 0;
+}
+
+ol{
+    margin: 0 0 1rem 0;
+    padding: 2rem;
+}
+
+ol li{
+    margin: 0 0 0.6rem 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem; 
+}
+
+ ul li{
+    padding: 0.5rem 1rem;
+    background-color: #d6a585;
+    border-radius: 1rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.receta{
+    position: relative;
+    border: 0.2rem solid black;
+    width: 100%;
+    margin: 2rem 0;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.receta .btn-indice {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.3rem 0.9rem;
+  background-color: #d6a585;
+  border-radius: 1rem;
+}
+
+.receta :is(h2, h3){
+    margin: 1rem 0;
+}
+
+ol{
+    margin: 0 0 1rem 0;
+    padding: 2rem;
+}
+
+ol li{
+    margin: 0 0 0.6rem 0;
+}

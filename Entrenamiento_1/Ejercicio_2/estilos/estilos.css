@@ -22,7 +22,7 @@ main {
 
 header {
   margin: 0 auto;
-  width: 100%;
+  width: 100%;;
   padding: 2rem;
   background-color: #bf7340;
   position: sticky;
@@ -46,6 +46,7 @@ header a{
 
 .recetas {
   margin: 3rem 0;
+  
   background-color: #edd8c9;
   display: flex;
   flex-direction: column;
@@ -54,11 +55,18 @@ header a{
   border: 0.2rem solid #9D5E34;
   border-radius: 4rem 0 4rem 0;
 }
+
+
 .recetas h3{
     font-size: 1.2rem;
     margin: 1rem;
 }
-
+img{
+    max-width: 80vw;
+    height: auto;
+    padding: 0 0.2rem;
+    
+}
 ul{
     list-style: none;
     padding: 0;
@@ -74,6 +82,7 @@ ul li{
 }
 ol{
     margin: 0 0 1rem 0;
+    padding: 2rem;
 }
 
 ol li{
